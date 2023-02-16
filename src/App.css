@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.boxes {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	height: 100vh;
+	padding: 100px;
+}
+
+.box {
+	border: 1px solid black;
+}
